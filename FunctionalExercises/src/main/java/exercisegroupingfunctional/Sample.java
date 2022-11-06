@@ -1,6 +1,5 @@
-package exercisegroupingimperative;
+package exercisegroupingfunctional;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -10,17 +9,10 @@ import static java.util.stream.Collectors.groupingBy;
 public class Sample {
     public static Map<Integer, List<String>> groupByScores(
             Map<String, Integer> scores ) {
-        Map<Integer, List<String>> byScores = new HashMap<>();
-        for(String name: scores.keySet()) {
-            int score = scores.get(name);
-
-            List<String> names = new ArrayList<>();
-            if(byScores.containsKey(score))
-                names = byScores.get(score);
-            names.add(name);
-            byScores.put(score, names);
-        }
-        return byScores;
+        return scores.keySet()
+                .stream()
+                .collect(groupingBy(scores::get));
+        // reduce
     }
 
     public static void main(String[] args) {
