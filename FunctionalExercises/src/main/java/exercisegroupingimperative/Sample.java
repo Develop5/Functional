@@ -25,7 +25,7 @@ public class Sample {
         */
         return scores.keySet()
                 .stream()
-                .collect(groupingBy(name -> scores.get(name)));
+                .collect(groupingBy(scores::get));
 
     }
 
