@@ -8,6 +8,10 @@ import java.util.Map;
 import static java.util.stream.Collectors.groupingBy;
 
 public class Sample {
+    // name1->score1, name2->score2, name3->score1
+    // Then:
+    // score1 includes: name1 and name
+    // and score2 includes: name2
     public static Map<Integer, List<String>> groupByScores(
             Map<String, Integer> scores ) {
         Map<Integer, List<String>> byScores = new HashMap<>();

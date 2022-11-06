@@ -6,12 +6,17 @@ import java.util.Map;
 
 import static java.util.stream.Collectors.groupingBy;
 
+// https://www.youtube.com/watch?v=TG67kq7WUEo
+
 public class Sample {
+    // we will put a name into a bucket with the score for that name as label
+    // Stream's collect has a way to group based on buckets
     public static Map<Integer, List<String>> groupByScores(
             Map<String, Integer> scores ) {
         return scores.keySet()
                 .stream()
                 .collect(groupingBy(scores::get));
+                // we provide the label for the bucket
         // reduce
     }
 
