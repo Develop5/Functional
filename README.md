@@ -1,7 +1,7 @@
-# Functional
+Functional
 Functinal programming in Java.
 
-## Simple exercises:
+Simple exercises:
 - exercisegroupingfunctional
 
   Grouping scores by name. Functional programming.
