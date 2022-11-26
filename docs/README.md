@@ -1,36 +1,37 @@
-<h1 align="Functional programming in Java">Dev Dictionary</h1>
+#Functional programming in Java"
 
 Simple exercises:
-*exercisegroupingfunctional
+
+* exercisegroupingfunctional
 
   Grouping scores by name. Functional programming.
 
 
-*exercisegroupingimperative
+* exercisegroupingimperative
 
   Grouping scores by name. Imperative programming.
 
 
-*exerciseonfilesfunctional
+* exerciseonfilesfunctional
 
   Counts the number of lines containing a word in a file. Functional programming.
 
 
-*exerciseonfilesimperative
+* exerciseonfilesimperative
 
   Counts the number of lines containing a word in a file. Imperative programming.
 
 
-*structured
+* structured
 
   Math operations chained. Functional programming.
 
 
-*sumofsquaresofprimesfunctional
+* sumofsquaresofprimesfunctional
 
   Sum of squares of prime numbers. Functional programming.
 
 
-*sumofsquaresofprimesimperative
+* sumofsquaresofprimesimperative
 
   Sum of squares of prime numbers. Imperative programming.
