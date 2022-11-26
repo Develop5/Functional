@@ -1,5 +1,4 @@
-Functional
-Functinal programming in Java.
+<h1 align="Functional programming in Java">Dev Dictionary</h1>
 
 Simple exercises:
 * exercisegroupingfunctional
